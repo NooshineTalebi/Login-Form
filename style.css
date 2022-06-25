@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(28, 72, 77);
+}
+
+.center {
+    margin-top: 10%;
+    margin-left: 40%;
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.center h1 {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid silver;
+}
+
+.div {
+    border-bottom: 2px solid #adadad;
+    margin: 20px;
+    color: #adadad;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="password"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.pass {
+    margin: 25px 15px;
+    color: #676363;
+    cursor: pointer;
+}
+
+.pass:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    padding: 12px 80px;
+    margin-left: 50px;
+    background-color: #2691d9;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    border: 2px solid #545353;
+    transition: .5s;
+}
+
+.sign {
+    margin: 30px 0;
+    text-align: center;
+    color: #666666;
+    cursor: pointer;
+}
+
+.sign a {
+    color: #2691d9;
+    text-decoration: none;
+}
+
+.sign a:hover {
+    text-decoration: underline;
+}
